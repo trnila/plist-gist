@@ -4,7 +4,7 @@ pkgver=0.1
 pkgrel=1
 pkgdesc="Automatically saves package list to Gist"
 url="https://github.com/DerekTBrown/plist-gist"
-arch=('x86_64' 'i686')
+arch=('any')
 license=('GPL')
 depends=('pacman>=5.0' 'gist-git>=4.5.0')
 makedepends=('git')
