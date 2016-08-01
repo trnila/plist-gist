@@ -13,10 +13,6 @@ source=("plist-gist.hook" "plist-gist.sh")
 md5sums=('SKIP' 'SKIP')
 
 package() {
-  # Install Save file
-  mkdir -p $pkgdir/etc/
-  touch $pkgdir/etc/plist-gist
-
   # Install Script
   mkdir -p $pkgdir/usr/lib/plist-gist
   cp $srcdir/plist-gist.sh $pkgdir/usr/lib/plist-gist/plist-gist.sh
