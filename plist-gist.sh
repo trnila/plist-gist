@@ -13,8 +13,10 @@ gist_backup(){
 
     # Determine if Fresh Install is Needed
     if [ -z "$GIST_ID" ]; then
-      echo -e "\nError: Gist Backup not Setup."
-      echo -e "\nRun yaourt -S plist-gist and follow instructions."
+      echo -e "Error: Gist Backup not Setup.\n"
+      echo "Run"
+	  echo "sudo sh -c 'source /usr/lib/plist-gist/plist-gist.sh; gist_backup_install'"
+	  echo "and follow instructions."
     else
       gist_backup_update;
     fi

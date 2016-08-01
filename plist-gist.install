@@ -1,5 +1,0 @@
-post_install() {
-	echo run this command for setup
-	echo "sudo sh -c 'source /usr/lib/plist-gist/plist-gist.sh; gist_backup_install'"
-}
-

@@ -8,7 +8,6 @@ arch=('any')
 license=('GPL')
 depends=('pacman>=5.0' 'gist-git>=4.5.0')
 makedepends=('git')
-install="plist-gist.install"
 source=("plist-gist.hook" "plist-gist.sh")
 md5sums=('SKIP' 'SKIP')
 
